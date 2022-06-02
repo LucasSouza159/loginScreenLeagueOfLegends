@@ -17,24 +17,25 @@ body{
     margin:100px auto;
     width: 400px;
     height: 500px;
-    border-radius: 3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .container h2{
     text-align: center;
-    padding: 50px 50px 30px 50px;
-    font-size: 1.1rem;
+    padding: 80px 50px 40px 50px;
+    font-size: 1.8rem;
 }
 .login_input{
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .login_input input{
     margin-bottom: 10px;
-    padding: 10px;
-    width: 260px;
+    padding: 15px;
+    width: 340px;
     background-color: rgb(240, 240, 240);
     border-radius: 5px;
     border: none;
@@ -53,7 +54,7 @@ body{
     margin-top: 10px;
 }
 .login_social a:nth-child(1), .login_social a:nth-child(2), .login_social a:nth-child(3){
-    padding: 5px 26px;
+    padding: 10px 40px;
     text-align: center;
     border-radius: 5px;
     margin-right: 30px;
@@ -73,14 +74,14 @@ body{
     color: #fff;
 }
 .login_enviar{
-    padding: 20px;
+    padding: 20px 30px;
     border: 2px solid #e8e8e8;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     position: absolute;
     font-size: 1.3rem;
-    margin-left: 120px;
+    margin-left: 165px;
     margin-top: 20px;
 }
 .login_enviar a{
@@ -95,7 +96,7 @@ body{
     margin: 120px 0;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .criarConta a{
     text-decoration: none;
