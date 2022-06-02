@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 body{
     background: url(./Images/background.jpg);
@@ -13,6 +15,32 @@ body{
     background-color: #fff;
     position: relative;
     margin:100px auto;
-    width: 300px;
+    width: 320px;
     height: 400px;
+}
+.container h2{
+    text-align: center;
+    padding: 70px 50px 50px 50px;
+    font-size: 1.2rem;
+}
+.login_input{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.login_input input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 260px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border: none;
+}
+.login_input input::placeholder{
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 0.6rem;
 }
