@@ -9,14 +9,14 @@ body{
     background: url(./Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+
 }
 .login{
     background-color: #fff;
     position: relative;
     margin:100px auto;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     border-radius: 3px;
 }
 
@@ -89,6 +89,19 @@ body{
     text-align: center;
 }
 
+.criarConta{
+    font-weight: bold;
+    color: #333;
+    margin: 120px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.criarConta a{
+    text-decoration: none;
+    color: #333;
+}
+
 .footer{
     color:#e8e8e8 ;
     text-transform: uppercase;
@@ -98,11 +111,15 @@ body{
 .footer a{
     color: #e8e8e8;
     margin-right: 5px;
+    text-decoration: none;
 }
 .lenguage{
     padding: 5px;
     background: rgba(111, 111, 111, 0.3);
     border-radius: 5px;
     text-decoration: none;
+}
+.copy{
     margin-top: 10px;
+    font-size: .6rem;
 }
